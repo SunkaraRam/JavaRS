@@ -1,0 +1,20 @@
+package xpath;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AscDisc {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "e://ChromeDriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("E://JavaRS/select.html");
+		
+		
+
+	}
+
+}

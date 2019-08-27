@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Admin login Test">
+  <parameter name="uid" value="Admin"></parameter>
+  <parameter name="pwd" value="Admin"></parameter>
+  <classes>
+  
+  	<class name="com.primusbank.tests.AdminLoginTest"></class>
+  
+  </classes>
+  
+  </test> 
+  <test name="Banker Login Test">
+  
+  <parameter name="brch" value="Madhapur"></parameter>
+  
+  <parameter name="uid1" value="SunkaraRam"></parameter>
+  
+  <parameter name="pwd1" value="rams"></parameter>
+  <classes>
+  	
+  	<class name="com.primusbank.tests.BankerLoginTest"></class>  
+  	
+  </classes>
+  
+  
+  </test>
+  
+  
+  
+</suite>

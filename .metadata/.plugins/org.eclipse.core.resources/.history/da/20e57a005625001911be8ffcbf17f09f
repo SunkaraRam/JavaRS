@@ -1,0 +1,27 @@
+package xpath;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.server.handler.SendKeys;
+
+public class FbSelectors {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.gecko.driver", "e://geckodriver.exe");
+		
+		WebDriver driver = new FirefoxDriver(); 
+		
+		driver.manage().deleteAllCookies();
+		
+		driver.get("http://facebook.com");
+		
+		driver.findElement(By.id("//*[@id='u_0_j']")).sendKeys("Sunkara");
+
+		driver.findElement(By.id("//*[@id='u_0_l']")).sendKeys("Ramu");
+		
+
+	}
+
+}

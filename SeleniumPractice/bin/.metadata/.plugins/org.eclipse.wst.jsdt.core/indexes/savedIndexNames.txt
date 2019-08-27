@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+E:\JavaRS\SeleniumPractice\src\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1983429832.index
+2969272313.index
+868874250.index
+3540839101.index
+3483923750.index

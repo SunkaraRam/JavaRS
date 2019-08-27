@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PrimuSuite]">
+  <test thread-count="5" name="Admin Login Test(failed)">
+    <parameter name="uid" value="Admin"/>
+    <parameter name="pwd" value="Admin"/>
+    <classes>
+      <class name="com.primusbank.tests.AdminLoginTest">
+        <methods>
+          <include name="checkAdminLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.primusbank.tests.AdminLoginTest -->
+    </classes>
+  </test> <!-- Admin Login Test(failed) -->
+  <test thread-count="5" name="Banker Login Test(failed)">
+    <parameter name="pwd1" value="Admin"/>
+    <parameter name="uid1" value="Admin"/>
+    <parameter name="brch" value="Madhapur"/>
+    <classes>
+      <class name="com.primusbank.tests.BankerLoginTest">
+        <methods>
+          <include name="CheckBankerLogin" invocation-numbers="0"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.primusbank.tests.BankerLoginTest -->
+    </classes>
+  </test> <!-- Banker Login Test(failed) -->
+</suite> <!-- Failed suite [PrimuSuite] -->
