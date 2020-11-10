@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class LoginDDT {
 
 	
-	// This programs is for datadriver testing
+//checking out
 	
 	
 	@Test(dataProvider="loginData")
