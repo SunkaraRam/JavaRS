@@ -37,20 +37,20 @@ public class FindingDataInTable {
 			
 			cols = rows.get(i).findElements(By.tagName("td"));
 			
-			String actvalue = cols.get(0).getText();
-			
-			//System.out.println(actvalue);
-			
-	
-			
-			if (actvalue.equalsIgnoreCase(expvalue)) {
+			for (int j = 1; j < cols.size(); j++) {
 				
-				sree = true;
+				String actvalue = cols.get(0).getText();
 				
-				break;
+				//System.out.println(actvalue);
 				
+				if (actvalue.equalsIgnoreCase(expvalue)) {
+					
+					sree = true;
+					
+					break;
+					
+				}	
 			}
-			
 		}
 		
 		if (sree) {
@@ -59,7 +59,6 @@ public class FindingDataInTable {
 			
 		} else {
 			
-
 			System.out.println(expvalue + " not Available in the table");
 
 		}

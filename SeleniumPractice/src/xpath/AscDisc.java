@@ -12,7 +12,7 @@ public class AscDisc {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "e://ChromeDriver.exe");
+		System.setProperty("webdriver.chrome.driver", "d://chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
@@ -25,7 +25,7 @@ public class AscDisc {
 		
 		//System.out.println(namelist.size());
 		
-		boolean aim = false;
+		boolean aim = true;
 		
 		for (int i = 1 ; i < namelist.size(); i++) {
 			
@@ -35,7 +35,7 @@ public class AscDisc {
 			
 			if (str2.compareToIgnoreCase(str1)<0) {
 				
-				aim =  true;
+				aim =  false;
 				
 				break;
 				
@@ -52,45 +52,48 @@ public class AscDisc {
 
 			System.out.println("Values are not in Ordere, TestFail");
 		}
-		/*
-		
-		driver.get("http://primusbank.qedgetech.com");
-		
-		Select list = new Select(driver.findElement(By.id("drlist")));
-		
-		List<WebElement> dlist = list.getOptions();
 		
 		
 		
-		String expval = "Ameerpet";
 		
-		boolean ram = false;
 		
-		for (int i = 1; i < dlist.size(); i++) {
-			
-			String actval = dlist.get(i).getText();
-			
-			if (expval.equalsIgnoreCase(actval)) {
-				
-				ram = true;
-				
-				break;
-				
-			}
-			
-		}
-		
-		if (ram) {
-			
-			System.out.println("TestPass");
-			
-		} else {
-			
-			System.out.println("TestFail");
-
-		}
-		
-		*/
+//		driver.get("http://primusbank.qedgetech.com");
+//		
+//		Select list = new Select(driver.findElement(By.id("drlist")));
+//		
+//		List<WebElement> dlist = list.getOptions();
+//		
+//		
+//		
+//		String expval = "Ameerpet1po";
+//		
+//		boolean ram = false;
+//		
+//		for (int i = 1; i < dlist.size(); i++) {
+//			
+//			String actval = dlist.get(i).getText();
+//			
+//			if (expval.equalsIgnoreCase(actval)) {
+//				
+//				ram = true;
+//				
+//				break;
+//				
+//			}
+//			
+//		}
+//		
+//		if (ram) {
+//			
+//			System.out.println("TestPass");
+//			
+//		} else {
+//			
+//			System.out.println("TestFail");
+//
+//		}
+//		
+//		
 		
 		// Own HTML file
 		

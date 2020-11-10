@@ -31,6 +31,8 @@ public class CleartripDatePic {
 		
 		System.out.println(dt + mn+ yr);
 		
+		System.setProperty("webdriver.chrome.driver", "D:\\LatestDrivers\\chromedriver.exe");
+		
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().deleteAllCookies();
@@ -97,27 +99,7 @@ public class CleartripDatePic {
 			
 			
 		}
-		
-		
-		
-		
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 		
 		
 

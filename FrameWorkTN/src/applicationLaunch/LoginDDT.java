@@ -4,6 +4,10 @@ import org.testng.annotations.Test;
 
 public class LoginDDT {
 
+	
+	// This programs is for datadriver testing
+	
+	
 	@Test(dataProvider="loginData")
 	public void login(String uid, String pwd) 
 	{
