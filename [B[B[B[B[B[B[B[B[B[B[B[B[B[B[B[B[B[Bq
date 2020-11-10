@@ -1,0 +1,1464 @@
+warning: LF will be replaced by CRLF in FrameWorkTN/bin/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2019/2/5/refactorings.index.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FrameWorkTN/bin/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.10.0.20181127-2120.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FrameWorkTN/bin/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FrameWorkTN/bin/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FrameWorkTN/bin/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FrameWorkTN/bin/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FrameWorkTN/bin/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/jquery-1.7.1.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-reports.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-reports.js.
+The file will have its original line endings in your working directory
+[1mdiff --git a/.metadata/.log b/.metadata/.log[m
+[1mindex e761b98..5f54aaa 100644[m
+[1m--- a/.metadata/.log[m
+[1m+++ b/.metadata/.log[m
+[36m@@ -9107,3 +9107,51 @@[m [mCaused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was[m
+ 	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:332)[m
+ 	at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom(DefaultArtifactDescriptorReader.java:314)[m
+ 	... 44 more[m
+[32m+[m[32m!SESSION 2020-07-15 13:19:46.261 -----------------------------------------------[m[41m[m
+[32m+[m[32meclipse.buildId=4.10.0.I20181206-0815[m[41m[m
+[32m+[m[32mjava.version=1.8.0_221[m[41m[m
+[32m+[m[32mjava.vendor=Oracle Corporation[m[41m[m
+[32m+[m[32mBootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN[m[41m[m
+[32m+[m[32mFramework arguments:  -product org.eclipse.epp.package.jee.product[m[41m[m
+[32m+[m[32mCommand-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m!ENTRY org.eclipse.jface.text 2 0 2020-07-15 13:21:36.469[m[41m[m
+[32m+[m[32m!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m!ENTRY org.eclipse.egit.ui 2 0 2020-07-15 13:22:55.175[m[41m[m
+[32m+[m[32m!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git[m
+[32m+[m[32muser global configuration and to define the default location to store repositories: 'C:\Users\SunkaraRam'. If this is[m
+[32m+[m[32mnot correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and[m
+[32m+[m[32mEGit might behave differently since they see different configuration options.[m
+[32m+[m[32mThis warning can be switched off on the Team > Git > Confirmations and Warnings preference page.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m!ENTRY org.eclipse.m2e.core 4 -1 2020-07-15 13:24:24.494[m[41m[m
+[32m+[m[32m!MESSAGE Could not lookup required component[m[41m[m
+[32m+[m[32m!STACK 0[m[41m[m
+[32m+[m[32morg.codehaus.plexus.component.repository.exception.ComponentLookupException: java.util.NoSuchElementException[m[41m[m
+[32m+[m[32m      role: org.apache.maven.execution.MavenExecutionRequestPopulator[m[41m[m
+[32m+[m[32m  roleHint:[m[41m [m
+[32m+[m	[32mat org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:267)[m[41m[m
+[32m+[m	[32mat org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)[m[41m[m
+[32m+[m	[32mat org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)[m[41m[m
+[32m+[m	[32mat org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1251)[m[41m[m
+[32m+[m	[32mat org.eclipse.m2e.core.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:236)[m[41m[m
+[32m+[m	[32mat org.eclipse.m2e.core.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:211)[m[41m[m
+[32m+[m	[32mat org.eclipse.m2e.core.internal.embedder.MavenImpl.getMirror(MavenImpl.java:1141)[m[41m[m
+[32m+[m	[32mat org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:257)[m[41m[m
+[32m+[m	[32mat org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47)[m[41m[m
+[32m+[m	[32mat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)[m[41m[m
+[32m+[m[32mCaused by: java.util.NoSuchElementException[m[41m[m
+[32m+[m	[32mat java.util.Collections$EmptyIterator.next(Unknown Source)[m[41m[m
+[32m+[m	[32mat org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)[m[41m[m
+[32m+[m	[32m... 9 more[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m!ENTRY org.eclipse.core.jobs 4 2 2020-07-15 13:24:25.782[m[41m[m
+[32m+[m[32m!MESSAGE An internal error occurred during: "Updating indexes".[m[41m[m
+[32m+[m[32m!STACK 0[m[41m[m
+[32m+[m[32mjava.lang.NullPointerException[m[41m[m
+[32m+[m	[32mat org.eclipse.m2e.core.MavenPlugin.getMavenConfiguration(MavenPlugin.java:63)[m[41m[m
+[32m+[m	[32mat org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1082)[m[41m[m
+[32m+[m	[32mat org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:656)[m[41m[m
+[32m+[m	[32mat org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72)[m[41m[m
+[32m+[m	[32mat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)[m[41m[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index b/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index[m
+[1mindex dcddbaa..5403888 100644[m
+Binary files a/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index and b/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.resources/.root/25.tree b/.metadata/.plugins/org.eclipse.core.resources/.root/25.tree[m
+[1mdeleted file mode 100644[m
+[1mindex 77a57f9..0000000[m
+Binary files a/.metadata/.plugins/org.eclipse.core.resources/.root/25.tree and /dev/null differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources b/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources[m
+[1mindex ce110fb..49709a8 100644[m
+Binary files a/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources and b/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs[m
+[1mindex 44ec60f..c5b97a8 100644[m
+[1m--- a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs[m
+[36m@@ -1,5 +1,5 @@[m
+ PROBLEMS_FILTERS_MIGRATE=true[m
+ eclipse.preferences.version=1[m
+[31m-platformState=1550738996431[m
+[32m+[m[32mplatformState=1550738996436[m[41m[m
+ quickStart=false[m
+ tipsAndTricks=true[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi b/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi[m
+[1mindex 2d92f40..3bce838 100644[m
+[1m--- a/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi[m
+[1m+++ b/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi[m
+[36m@@ -73,8 +73,9 @@[m
+           <tags>persp.showIn:org.eclipse.eclemma.ui.CoverageView</tags>[m
+           <tags>persp.newWizSC:org.eclipse.jpt.jpa.ui.wizard.newJpaProject</tags>[m
+           <tags>persp.perspSC:org.eclipse.jpt.ui.jpaPerspective</tags>[m
+[31m-          <children xsi:type="basic:PartSashContainer" xmi:id="_jBkxQEJXEemACsoS2eEktA" selectedElement="_jBkxRkJXEemACsoS2eEktA" horizontal="true">[m
+[32m+[m[32m          <children xsi:type="basic:PartSashContainer" xmi:id="_jBkxQEJXEemACsoS2eEktA" selectedElement="_jBkxQUJXEemACsoS2eEktA" horizontal="true">[m[41m[m
+             <children xsi:type="basic:PartStack" xmi:id="_jBkxQUJXEemACsoS2eEktA" elementId="topLeft" containerData="2500" selectedElement="_jBkxQkJXEemACsoS2eEktA">[m
+[32m+[m[32m              <tags>active</tags>[m[41m[m
+               <children xsi:type="advanced:Placeholder" xmi:id="_jBkxQkJXEemACsoS2eEktA" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_yybKgjTbEemgSfk5PtBFZw" closeable="true">[m
+                 <tags>View</tags>[m
+                 <tags>categoryTag:General</tags>[m
+[36m@@ -287,14 +288,11 @@[m
+       <children xsi:type="basic:PartStack" xmi:id="_yx_FkTTbEemgSfk5PtBFZw" elementId="PartStack@15ac02d5" selectedElement="_tDOWgDTcEemgSfk5PtBFZw">[m
+         <tags>org.eclipse.e4.primaryDataStack</tags>[m
+         <tags>EditorStack</tags>[m
+[31m-        <tags>active</tags>[m
+         <children xsi:type="basic:Part" xmi:id="_tDOWgDTcEemgSfk5PtBFZw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PrimusbankHomepage.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">[m
+[31m-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrimusbankHomepage.java&quot; partName=&quot;PrimusbankHomepage.java&quot; title=&quot;PrimusbankHomepage.java&quot; tooltip=&quot;FrameWorkTN/src/applicationLaunch/PrimusbankHomepage.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FrameWorkTN/src/applicationLaunch/PrimusbankHomepage.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;568&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>[m
+[32m+[m[32m          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrimusbankHomepage.java&quot; partName=&quot;PrimusbankHomepage.java&quot; title=&quot;PrimusbankHomepage.java&quot; tooltip=&quot;FrameWorkTN/src/applicationLaunch/PrimusbankHomepage.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FrameWorkTN/src/applicationLaunch/PrimusbankHomepage.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;230&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>[m[41m[m
+           <tags>Editor</tags>[m
+           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>[m
+           <tags>removeOnHide</tags>[m
+[31m-          <tags>active</tags>[m
+[31m-          <tags>activeOnClose</tags>[m
+         </children>[m
+         <children xsi:type="basic:Part" xmi:id="_Wc0_IDThEemgSfk5PtBFZw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AdminLoginTest.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">[m
+           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AdminLoginTest.java&quot; partName=&quot;AdminLoginTest.java&quot; title=&quot;AdminLoginTest.java&quot; tooltip=&quot;FrameWorkTN/src/applicationLaunch/AdminLoginTest.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FrameWorkTN/src/applicationLaunch/AdminLoginTest.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;407&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>[m
+[36m@@ -338,6 +336,8 @@[m
+       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1548929617029&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>[m
+       <tags>View</tags>[m
+       <tags>categoryTag:General</tags>[m
+[32m+[m[32m      <tags>active</tags>[m[41m[m
+[32m+[m[32m      <tags>activeOnClose</tags>[m[41m[m
+       <menus xmi:id="_y24zsDTbEemgSfk5PtBFZw" elementId="org.eclipse.ui.navigator.ProjectExplorer">[m
+         <tags>ViewMenu</tags>[m
+         <tags>menuContribution:menu</tags>[m
+[36m@@ -523,7 +523,7 @@[m
+       </children>[m
+       <children xsi:type="menu:ToolBar" xmi:id="_yiNkMjTbEemgSfk5PtBFZw" elementId="org.eclipse.ui.workbench.file">[m
+         <tags>Draggable</tags>[m
+[31m-        <children xsi:type="menu:HandledToolItem" xmi:id="_4kHiIEJWEemACsoS2eEktA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_xxZ0dTTbEemgSfk5PtBFZw"/>[m
+[32m+[m[32m        <children xsi:type="menu:HandledToolItem" xmi:id="_7vZ0YMZvEeqaCqb9ZfiCQQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_xxZ0dTTbEemgSfk5PtBFZw"/>[m[41m[m
+       </children>[m
+       <children xsi:type="menu:ToolBar" xmi:id="_yiNkMzTbEemgSfk5PtBFZw" elementId="additions" toBeRendered="false">[m
+         <tags>toolbarSeparator</tags>[m
+[36m@@ -556,7 +556,7 @@[m
+       </children>[m
+       <children xsi:type="menu:ToolBar" xmi:id="_yiXVMDTbEemgSfk5PtBFZw" elementId="org.eclipse.ui.workbench.navigate">[m
+         <tags>Draggable</tags>[m
+[31m-        <children xsi:type="menu:HandledToolItem" xmi:id="_4kRTIEJWEemACsoS2eEktA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_xxZ0HDTbEemgSfk5PtBFZw"/>[m
+[32m+[m[32m        <children xsi:type="menu:HandledToolItem" xmi:id="_7vhwMMZvEeqaCqb9ZfiCQQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_xxZ0HDTbEemgSfk5PtBFZw"/>[m[41m[m
+       </children>[m
+       <children xsi:type="menu:ToolBar" xmi:id="_yiXVMTTbEemgSfk5PtBFZw" elementId="group.editor" toBeRendered="false">[m
+         <tags>toolbarSeparator</tags>[m
+[36m@@ -1178,6 +1178,12 @@[m
+   <bindingTables xmi:id="_NBKBkTfkEemV89HY32OkvA" bindingContext="_NBKBkDfkEemV89HY32OkvA"/>[m
+   <bindingTables xmi:id="_NBKBkzfkEemV89HY32OkvA" bindingContext="_NBKBkjfkEemV89HY32OkvA"/>[m
+   <bindingTables xmi:id="_NBKBlTfkEemV89HY32OkvA" bindingContext="_NBKBlDfkEemV89HY32OkvA"/>[m
+[32m+[m[32m  <bindingTables xmi:id="_4iTmQMZvEeqaCqb9ZfiCQQ" elementId="cucumber.eclipse.editor.featureEditorScope" bindingContext="_4fQSQMZvEeqaCqb9ZfiCQQ">[m[41m[m
+[32m+[m[32m    <bindings xmi:id="_4iUNUMZvEeqaCqb9ZfiCQQ" keySequence="F3" command="_4d3LI8ZvEeqaCqb9ZfiCQQ"/>[m[41m[m
+[32m+[m[32m    <bindings xmi:id="_4iYewMZvEeqaCqb9ZfiCQQ" keySequence="F5" command="_4d3LIMZvEeqaCqb9ZfiCQQ"/>[m[41m[m
+[32m+[m[32m    <bindings xmi:id="_4ihBoMZvEeqaCqb9ZfiCQQ" keySequence="CTRL+/" command="_4d3LIcZvEeqaCqb9ZfiCQQ"/>[m[41m[m
+[32m+[m[32m    <bindings xmi:id="_4isAwMZvEeqaCqb9ZfiCQQ" keySequence="CTRL+SHIFT+F" command="_4d3yMMZvEeqaCqb9ZfiCQQ"/>[m[41m[m
+[32m+[m[32m  </bindingTables>[m[41m[m
+   <rootContext xmi:id="_xvxapDTbEemgSfk5PtBFZw" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">[m
+     <children xmi:id="_xvxapTTbEemgSfk5PtBFZw" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">[m
+       <children xmi:id="_xvxapjTbEemgSfk5PtBFZw" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>[m
+[36m@@ -1239,6 +1245,7 @@[m
+       <children xmi:id="_xxjjzTTbEemgSfk5PtBFZw" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" name="In Tasks View"/>[m
+       <children xmi:id="_xxjj1TTbEemgSfk5PtBFZw" elementId="org.eclipse.egit.ui.RepositoriesView" name="In Git Repositories View"/>[m
+       <children xmi:id="_MbIjYzfkEemV89HY32OkvA" elementId="org.eclipse.buildship.ui.contexts.taskview" name="In Gradle Tasks View" description="This context is activated when the Gradle Tasks view is in focus"/>[m
+[32m+[m[32m      <children xmi:id="_4fQSQMZvEeqaCqb9ZfiCQQ" elementId="cucumber.eclipse.editor.featureEditorScope" name="Editing Feature"/>[m[41m[m
+     </children>[m
+     <children xmi:id="_xvxapzTbEemgSfk5PtBFZw" elementId="org.eclipse.ui.contexts.dialog" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs" description="A dialog is open"/>[m
+     <children xmi:id="_MbIjYDfkEemV89HY32OkvA" elementId="org.eclipse.wst.jsdt.chromium.debug.ui.editors.JsEditor.context" name="Chromium Debug" description="Debug Chromium JavaScript"/>[m
+[36m@@ -3210,6 +3217,11 @@[m
+   <commands xmi:id="_M3B1MzfkEemV89HY32OkvA" elementId="AUTOGEN:::org.eclipse.debug.ui.breakpointsview.toolbar/org.eclipse.debug.ui.breakpointsView.toolbar.sortByAction" commandName="Sort By" description="Sort By" category="_xw9GjjTbEemgSfk5PtBFZw"/>[m
+   <commands xmi:id="_M3B1NDfkEemV89HY32OkvA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.LaunchViewActions/org.eclipse.jdt.debug.ui.launchViewActions.ShowRunningThreads" commandName="Show Running Threads" description="Show Running Threads" category="_xw9GjjTbEemgSfk5PtBFZw"/>[m
+   <commands xmi:id="_M3B1NTfkEemV89HY32OkvA" elementId="AUTOGEN:::org.eclipse.mylyn.ui.search.contribution/org.eclipse.mylyn.ide.ui.actions.focus.search.results" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_xw9GjjTbEemgSfk5PtBFZw"/>[m
+[32m+[m[32m  <commands xmi:id="_4d3LIMZvEeqaCqb9ZfiCQQ" elementId="cucumber.eclipse.editor.toggle.recalculate" commandName="Recalculate steps" description="Recalculate" category="_xw9GjjTbEemgSfk5PtBFZw"/>[m[41m[m
+[32m+[m[32m  <commands xmi:id="_4d3LIcZvEeqaCqb9ZfiCQQ" elementId="cucumber.eclipse.editor.toggle.comment" commandName="Toggle comment" description="Toggle comment" category="_xw9GjjTbEemgSfk5PtBFZw"/>[m[41m[m
+[32m+[m[32m  <commands xmi:id="_4d3LIsZvEeqaCqb9ZfiCQQ" elementId="cucumber.eclipse.steps.jdt.commands.addNatureCommand" commandName="Convert to Cucumber Project..." category="_4d1V8cZvEeqaCqb9ZfiCQQ"/>[m[41m[m
+[32m+[m[32m  <commands xmi:id="_4d3LI8ZvEeqaCqb9ZfiCQQ" elementId="cucumber.eclipse.editor.navigation.findstep" commandName="Find step" description="Find step" category="_4d19AcZvEeqaCqb9ZfiCQQ"/>[m[41m[m
+[32m+[m[32m  <commands xmi:id="_4d3yMMZvEeqaCqb9ZfiCQQ" elementId="cucumber.eclipse.editor.formmater.pretty_formatter" commandName="Pretty format feature file" description="Format" category="_4d19AMZvEeqaCqb9ZfiCQQ"/>[m[41m[m
+   <addons xmi:id="_xvxaqDTbEemgSfk5PtBFZw" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>[m
+   <addons xmi:id="_xvxaqTTbEemgSfk5PtBFZw" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>[m
+   <addons xmi:id="_xvxaqjTbEemgSfk5PtBFZw" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>[m
+[36m@@ -3222,7 +3234,7 @@[m
+   <addons xmi:id="_xvxasTTbEemgSfk5PtBFZw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>[m
+   <addons xmi:id="_xwNfgDTbEemgSfk5PtBFZw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>[m
+   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>[m
+[31m-  <addons xmi:id="_3TyisUJWEemACsoS2eEktA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>[m
+[32m+[m[32m  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>[m[41m[m
+   <categories xmi:id="_xw9GYDTbEemgSfk5PtBFZw" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>[m
+   <categories xmi:id="_xw9GYTTbEemgSfk5PtBFZw" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>[m
+   <categories xmi:id="_xw9GYjTbEemgSfk5PtBFZw" elementId="org.eclipse.ui.category.edit" name="Edit"/>[m
+[36m@@ -3275,4 +3287,7 @@[m
+   <categories xmi:id="_Ma-yYTfkEemV89HY32OkvA" elementId="org.eclipse.eclemma.ui" name="EclEmma Code Coverage"/>[m
+   <categories xmi:id="_Ma-yYjfkEemV89HY32OkvA" elementId="org.eclipse.pde.genericeditor.extension.category.source" name="Target Definition Source" description="Target Definition Source Page actions"/>[m
+   <categories xmi:id="_Ma-yYzfkEemV89HY32OkvA" elementId="org.eclipse.wst.jsdt.chromium.debug.js.category" name="Chrome / Chromium"/>[m
+[32m+[m[32m  <categories xmi:id="_4d1V8cZvEeqaCqb9ZfiCQQ" elementId="cucumber.eclipse.steps.jdt.commands.category" name="Cucumber Steps"/>[m[41m[m
+[32m+[m[32m  <categories xmi:id="_4d19AMZvEeqaCqb9ZfiCQQ" elementId="cucumber.eclipse.editor.formmtter" name="Formatter"/>[m[41m[m
+[32m+[m[32m  <categories xmi:id="_4d19AcZvEeqaCqb9ZfiCQQ" elementId="cucumber.eclipse.editor.find" name="findstep"/>[m[41m[m
+ </application:Application>[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache b/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache[m
+[1mindex 593f470..d39f7f2 100644[m
+Binary files a/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache and b/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache b/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache[m
+[1mindex d7da949..4659729 100644[m
+Binary files a/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache and b/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen b/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen[m
+[1mindex 225a55b..e9fa600 100644[m
+Binary files a/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen and b/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_2 b/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_2[m
+[1mdeleted file mode 100644[m
+[1mindex 6d88f79..0000000[m
+Binary files a/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_2 and /dev/null differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen b/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen[m
+[1mindex fc08b14..ae67acc 100644[m
+Binary files a/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen and b/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_6 b/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_6[m
+[1mdeleted file mode 100644[m
+[1mindex 1dc8b4b..0000000[m
+Binary files a/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_6 and /dev/null differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.m2e.core/nexus/fd8fdc4146e0c06d0fe47f83de56dbeb/segments.gen b/.metadata/.plugins/org.eclipse.m2e.core/nexus/fd8fdc4146e0c06d0fe47f83de56dbeb/segments.gen[m
+[1mindex 225a55b..e9fa600 100644[m
+Binary files a/.metadata/.plugins/org.eclipse.m2e.core/nexus/fd8fdc4146e0c06d0fe47f83de56dbeb/segments.gen and b/.metadata/.plugins/org.eclipse.m2e.core/nexus/fd8fdc4146e0c06d0fe47f83de56dbeb/segments.gen differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.m2e.core/nexus/fd8fdc4146e0c06d0fe47f83de56dbeb/segments_2 b/.metadata/.plugins/org.eclipse.m2e.core/nexus/fd8fdc4146e0c06d0fe47f83de56dbeb/segments_2[m
+[1mdeleted file mode 100644[m
+[1mindex fffc54a..0000000[m
+Binary files a/.metadata/.plugins/org.eclipse.m2e.core/nexus/fd8fdc4146e0c06d0fe47f83de56dbeb/segments_2 and /dev/null differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser b/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser[m
+[1mindex 8838ac3..abcce3c 100644[m
+Binary files a/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser and b/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log b/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log[m
+[1mindex a42c7ba..b020d69 100644[m
+[1m--- a/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log[m
+[1m+++ b/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log[m
+[36m@@ -9,3 +9,4 @@[m
+ 2019-03-09 16:16:57,945 [Worker-14: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PrimusBankPackage:PrimusBankMaven1:0.0.1-SNAPSHOT @ D:\JavaRS\PrimusBankMaven1\pom.xml.[m
+ 2019-03-09 16:16:57,957 [Worker-14: Creating maven-archetype-quickstart] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-resources-plugin:jar:2.6 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details[m
+ 2019-03-09 16:16:58,057 [Worker-14: Creating maven-archetype-quickstart] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-resources-plugin:jar:2.6 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details[m
+[32m+[m[32m2020-07-15 13:22:47,092 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.[m[41m[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties b/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties[m
+[1mindex ba6b3ac..285db55 100644[m
+[1m--- a/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties[m
+[1m+++ b/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties[m
+[36m@@ -1,2 +1,2 @@[m
+ #Cached timestamps[m
+[31m-#Sat Mar 09 16:25:35 IST 2019[m
+[32m+[m[32m#Wed Jul 15 13:24:23 IST 2020[m[41m[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties b/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties[m
+[1mindex 5762ea8..03e3a59 100644[m
+[1m--- a/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties[m
+[1m+++ b/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties[m
+[36m@@ -1,3 +1,3 @@[m
+ #[m
+[31m-#Sat Mar 09 16:15:15 IST 2019[m
+[31m-task-tag-projects-already-scanned=FrameWorkTN,SeleniumPractice,bn,RemoteSystemsTempFiles[m
+[32m+[m[32m#Wed Jul 15 13:24:16 IST 2020[m[41m[m
+[32m+[m[32mtask-tag-projects-already-scanned=FrameWorkTN,SeleniumPractice,PrimusBankMaven1,bn,RemoteSystemsTempFiles[m[41m[m
+[1mdiff --git a/.metadata/version.ini b/.metadata/version.ini[m
+[1mindex 62eb7ee..9c3ce25 100644[m
+[1m--- a/.metadata/version.ini[m
+[1m+++ b/.metadata/version.ini[m
+[36m@@ -1,3 +1,3 @@[m
+[31m-#Sat Mar 09 16:04:03 IST 2019[m
+[32m+[m[32m#Wed Jul 15 13:20:36 IST 2020[m[41m[m
+ org.eclipse.core.runtime=2[m
+ org.eclipse.platform=4.10.0.v20181206-0815[m
+[1mdiff --git a/FrameWorkTN/bin/ScreenShts/ScreenShots.class b/FrameWorkTN/bin/ScreenShts/ScreenShots.class[m
+[1mindex a18aa7f..39f33a9 100644[m
+Binary files a/FrameWorkTN/bin/ScreenShts/ScreenShots.class and b/FrameWorkTN/bin/ScreenShts/ScreenShots.class differ
+[1mdiff --git a/FrameWorkTN/bin/workwithlinks/ExampleIntegration.class b/FrameWorkTN/bin/workwithlinks/ExampleIntegration.class[m
+[1mindex d8d401d..49b7edc 100644[m
+Binary files a/FrameWorkTN/bin/workwithlinks/ExampleIntegration.class and b/FrameWorkTN/bin/workwithlinks/ExampleIntegration.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/AscDisc.class b/FrameWorkTN/bin/xpath/AscDisc.class[m
+[1mindex f50379c..dd9418f 100644[m
+Binary files a/FrameWorkTN/bin/xpath/AscDisc.class and b/FrameWorkTN/bin/xpath/AscDisc.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/ClearTripdatPicker1.class b/FrameWorkTN/bin/xpath/ClearTripdatPicker1.class[m
+[1mindex b459ec9..419b9ab 100644[m
+Binary files a/FrameWorkTN/bin/xpath/ClearTripdatPicker1.class and b/FrameWorkTN/bin/xpath/ClearTripdatPicker1.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/CleartripDatePic.class b/FrameWorkTN/bin/xpath/CleartripDatePic.class[m
+[1mindex 1c80469..0c66e2b 100644[m
+Binary files a/FrameWorkTN/bin/xpath/CleartripDatePic.class and b/FrameWorkTN/bin/xpath/CleartripDatePic.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/DragDrop.class b/FrameWorkTN/bin/xpath/DragDrop.class[m
+[1mindex bbf51ce..ebc7861 100644[m
+Binary files a/FrameWorkTN/bin/xpath/DragDrop.class and b/FrameWorkTN/bin/xpath/DragDrop.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/FindGmailtext.class b/FrameWorkTN/bin/xpath/FindGmailtext.class[m
+[1mindex e8065e1..83437b9 100644[m
+Binary files a/FrameWorkTN/bin/xpath/FindGmailtext.class and b/FrameWorkTN/bin/xpath/FindGmailtext.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/FindingDataInTable.class b/FrameWorkTN/bin/xpath/FindingDataInTable.class[m
+[1mindex f57549f..e2e59fa 100644[m
+Binary files a/FrameWorkTN/bin/xpath/FindingDataInTable.class and b/FrameWorkTN/bin/xpath/FindingDataInTable.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/HeightWeight.class b/FrameWorkTN/bin/xpath/HeightWeight.class[m
+[1mindex 1ddc786..f483c02 100644[m
+Binary files a/FrameWorkTN/bin/xpath/HeightWeight.class and b/FrameWorkTN/bin/xpath/HeightWeight.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/PracticeAll.class b/FrameWorkTN/bin/xpath/PracticeAll.class[m
+[1mindex bb3a21e..3e30c76 100644[m
+Binary files a/FrameWorkTN/bin/xpath/PracticeAll.class and b/FrameWorkTN/bin/xpath/PracticeAll.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/PrimusDropd.class b/FrameWorkTN/bin/xpath/PrimusDropd.class[m
+[1mindex 2a639f1..d01956f 100644[m
+Binary files a/FrameWorkTN/bin/xpath/PrimusDropd.class and b/FrameWorkTN/bin/xpath/PrimusDropd.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/PrimusPopUp.class b/FrameWorkTN/bin/xpath/PrimusPopUp.class[m
+[1mindex cbfc7ee..19350e0 100644[m
+Binary files a/FrameWorkTN/bin/xpath/PrimusPopUp.class and b/FrameWorkTN/bin/xpath/PrimusPopUp.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/Selectdeselect.class b/FrameWorkTN/bin/xpath/Selectdeselect.class[m
+[1mindex dbb2ffb..a475b61 100644[m
+Binary files a/FrameWorkTN/bin/xpath/Selectdeselect.class and b/FrameWorkTN/bin/xpath/Selectdeselect.class differ
+[1mdiff --git a/FrameWorkTN/bin/xpath/WindowsHandle.class b/FrameWorkTN/bin/xpath/WindowsHandle.class[m
+[1mindex 9fb5eeb..3b81d87 100644[m
+Binary files a/FrameWorkTN/bin/xpath/WindowsHandle.class and b/FrameWorkTN/bin/xpath/WindowsHandle.class differ
+[1mdiff --git a/SeleniumPractice/src/ScreenShts/ScreenShots.java b/SeleniumPractice/src/ScreenShts/ScreenShots.java[m
+[1mindex 817b717..3cf0a2e 100644[m
+[1m--- a/SeleniumPractice/src/ScreenShts/ScreenShots.java[m
+[1m+++ b/SeleniumPractice/src/ScreenShts/ScreenShots.java[m
+[36m@@ -12,6 +12,8 @@[m [mimport org.openqa.selenium.chrome.ChromeDriver;[m
+ import org.openqa.selenium.io.FileHandler;[m
+ //import org.apache.commons.io.FileUtils;[m
+ [m
+[32m+[m[32mimport com.google.common.io.Files;[m[41m[m
+[32m+[m[41m[m
+ [m
+ public class ScreenShots {[m
+ [m
+[36m@@ -29,8 +31,7 @@[m [mpublic class ScreenShots {[m
+ 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);[m
+ 		[m
+ 		FileHandler.copy(src,new File("d://screenshot.jpg"));[m
+[31m-		[m
+[31m-		[m
+[32m+[m[41m	[m
+ 	}[m
+ [m
+ }[m
+[1mdiff --git a/SeleniumPractice/src/workwithlinks/ExampleIntegration.java b/SeleniumPractice/src/workwithlinks/ExampleIntegration.java[m
+[1mindex 55459ff..130fe7e 100644[m
+[1m--- a/SeleniumPractice/src/workwithlinks/ExampleIntegration.java[m
+[1m+++ b/SeleniumPractice/src/workwithlinks/ExampleIntegration.java[m
+[36m@@ -4,7 +4,7 @@[m [mpublic class ExampleIntegration {[m
+ [m
+ 	public static void main(String[] args) {[m
+ 		[m
+[31m-		for (int i = 0; i <100-95 ; i++) {[m
+[32m+[m		[32mfor (int i = 1; i <=100-95 ; i++) {[m[41m[m
+ [m
+ 			System.out.println(i);[m
+ 		}[m
+[1mdiff --git a/SeleniumPractice/src/xpath/AscDisc.java b/SeleniumPractice/src/xpath/AscDisc.java[m
+[1mindex a5fb7cb..3cc60f4 100644[m
+[1m--- a/SeleniumPractice/src/xpath/AscDisc.java[m
+[1m+++ b/SeleniumPractice/src/xpath/AscDisc.java[m
+[36m@@ -12,7 +12,7 @@[m [mpublic class AscDisc {[m
+ [m
+ 	public static void main(String[] args) {[m
+ 		[m
+[31m-		System.setProperty("webdriver.chrome.driver", "e://ChromeDriver.exe");[m
+[32m+[m		[32mSystem.setProperty("webdriver.chrome.driver", "d://chromedriver.exe");[m[41m[m
+ 		[m
+ 		WebDriver driver = new ChromeDriver();[m
+ 		[m
+[36m@@ -25,7 +25,7 @@[m [mpublic class AscDisc {[m
+ 		[m
+ 		//System.out.println(namelist.size());[m
+ 		[m
+[31m-		boolean aim = false;[m
+[32m+[m		[32mboolean aim = true;[m[41m[m
+ 		[m
+ 		for (int i = 1 ; i < namelist.size(); i++) {[m
+ 			[m
+[36m@@ -35,7 +35,7 @@[m [mpublic class AscDisc {[m
+ 			[m
+ 			if (str2.compareToIgnoreCase(str1)<0) {[m
+ 				[m
+[31m-				aim =  true;[m
+[32m+[m				[32maim =  false;[m[41m[m
+ 				[m
+ 				break;[m
+ 				[m
+[36m@@ -52,45 +52,48 @@[m [mpublic class AscDisc {[m
+ [m
+ 			System.out.println("Values are not in Ordere, TestFail");[m
+ 		}[m
+[31m-		/*[m
+[31m-		[m
+[31m-		driver.get("http://primusbank.qedgetech.com");[m
+ 		[m
+[31m-		Select list = new Select(driver.findElement(By.id("drlist")));[m
+ 		[m
+[31m-		List<WebElement> dlist = list.getOptions();[m
+ 		[m
+ 		[m
+ 		[m
+[31m-		String expval = "Ameerpet";[m
+[31m-		[m
+[31m-		boolean ram = false;[m
+[31m-		[m
+[31m-		for (int i = 1; i < dlist.size(); i++) {[m
+[31m-			[m
+[31m-			String actval = dlist.get(i).getText();[m
+[31m-			[m
+[31m-			if (expval.equalsIgnoreCase(actval)) {[m
+[31m-				[m
+[31m-				ram = true;[m
+[31m-				[m
+[31m-				break;[m
+[31m-				[m
+[31m-			}[m
+[31m-			[m
+[31m-		}[m
+[31m-		[m
+[31m-		if (ram) {[m
+[31m-			[m
+[31m-			System.out.println("TestPass");[m
+[31m-			[m
+[31m-		} else {[m
+[31m-			[m
+[31m-			System.out.println("TestFail");[m
+[31m-[m
+[31m-		}[m
+[31m-		[m
+[31m-		*/[m
+[32m+[m[32m//		driver.get("http://primusbank.qedgetech.com");[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		Select list = new Select(driver.findElement(By.id("drlist")));[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		List<WebElement> dlist = list.getOptions();[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		String expval = "Ameerpet1po";[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		boolean ram = false;[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		for (int i = 1; i < dlist.size(); i++) {[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			String actval = dlist.get(i).getText();[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			if (expval.equalsIgnoreCase(actval)) {[m[41m[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//				ram = true;[m[41m[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//				break;[m[41m[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//			}[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//		}[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		if (ram) {[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			System.out.println("TestPass");[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//		} else {[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			System.out.println("TestFail");[m[41m[m
+[32m+[m[32m//[m[41m[m
+[32m+[m[32m//		}[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//[m[41m		[m
+ 		[m
+ 		// Own HTML file[m
+ 		[m
+[1mdiff --git a/SeleniumPractice/src/xpath/ClearTripdatPicker1.java b/SeleniumPractice/src/xpath/ClearTripdatPicker1.java[m
+[1mindex ce0862b..f8fcfbe 100644[m
+[1m--- a/SeleniumPractice/src/xpath/ClearTripdatPicker1.java[m
+[1m+++ b/SeleniumPractice/src/xpath/ClearTripdatPicker1.java[m
+[36m@@ -29,7 +29,7 @@[m [mpublic class ClearTripdatPicker1 {[m
+ 		[m
+ 		logger=report.createTest("Verify Data Picker");[m
+ 		[m
+[31m-		String dob = "1/March/2020";[m
+[32m+[m		[32mString dob = "1/March/2021";[m[41m[m
+ 		[m
+ 		String date,month,year;[m
+ 		[m
+[36m@@ -41,7 +41,7 @@[m [mpublic class ClearTripdatPicker1 {[m
+ 		[m
+ 		year = temp[2];[m
+ 		[m
+[31m-		System.setProperty("webdriver.chrome.driver", "d://chromedriver.exe");[m
+[32m+[m		[32mSystem.setProperty("webdriver.chrome.driver", "D:\\LatestDrivers\\chromedriver.exe");[m[41m[m
+ 		[m
+ 		WebDriver driver = new ChromeDriver();[m
+ 		[m
+[36m@@ -74,7 +74,7 @@[m [mpublic class ClearTripdatPicker1 {[m
+ 		[m
+ 		calmonth = driver.findElement(By.className("ui-datepicker-month")).getText();[m
+ 		[m
+[31m-		while (!calmonth.equalsIgnoreCase(month)) [m
+[32m+[m		[32mwhile (!calmonth.equalsIgnoreCase(month))[m[41m[m
+ 			{[m
+ 			[m
+ 			 driver.findElement(By.className("nextMonth")).click();[m
+[36m@@ -130,7 +130,7 @@[m [mpublic class ClearTripdatPicker1 {[m
+ [m
+ 	report.flush();[m
+ 	[m
+[31m-	driver.close();[m
+[32m+[m[32m//	driver.close();[m[41m[m
+ }[m
+ 	[m
+ 	[m
+[1mdiff --git a/SeleniumPractice/src/xpath/CleartripDatePic.java b/SeleniumPractice/src/xpath/CleartripDatePic.java[m
+[1mindex f8dc3bb..d682056 100644[m
+[1m--- a/SeleniumPractice/src/xpath/CleartripDatePic.java[m
+[1m+++ b/SeleniumPractice/src/xpath/CleartripDatePic.java[m
+[36m@@ -31,6 +31,8 @@[m [mpublic class CleartripDatePic {[m
+ 		[m
+ 		System.out.println(dt + mn+ yr);[m
+ 		[m
+[32m+[m		[32mSystem.setProperty("webdriver.chrome.driver", "D:\\LatestDrivers\\chromedriver.exe");[m[41m[m
+[32m+[m[41m		[m
+ 		WebDriver driver = new ChromeDriver();[m
+ 		[m
+ 		driver.manage().deleteAllCookies();[m
+[36m@@ -97,27 +99,7 @@[m [mpublic class CleartripDatePic {[m
+ 			[m
+ 			[m
+ 		}[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[31m-		[m
+[32m+[m[41m			[m
+ 		[m
+ 		[m
+ [m
+[1mdiff --git a/SeleniumPractice/src/xpath/DragDrop.java b/SeleniumPractice/src/xpath/DragDrop.java[m
+[1mindex cdd7a9c..a1d9518 100644[m
+[1m--- a/SeleniumPractice/src/xpath/DragDrop.java[m
+[1m+++ b/SeleniumPractice/src/xpath/DragDrop.java[m
+[36m@@ -14,7 +14,7 @@[m [mpublic class DragDrop {[m
+ [m
+ 	public static void main(String[] args) {[m
+ 		[m
+[31m-		System.setProperty("webdriver.chrome.driver", "d://chromedriver.exe");[m
+[32m+[m		[32m//System.setProperty("webdriver.chrome.driver", "d://chromedriver.exe");[m[41m[m
+ 		[m
+ 		WebDriver driver= new ChromeDriver();[m
+ 		[m
+[1mdiff --git a/SeleniumPractice/src/xpath/FindGmailtext.java b/SeleniumPractice/src/xpath/FindGmailtext.java[m
+[1mindex 8e36ca8..96294de 100644[m
+[1m--- a/SeleniumPractice/src/xpath/FindGmailtext.java[m
+[1m+++ b/SeleniumPractice/src/xpath/FindGmailtext.java[m
+[36m@@ -17,7 +17,7 @@[m [mpublic class FindGmailtext {[m
+ 		driver.findElement(By.linkText("Gmail")).click();[m
+ 		[m
+ 		String exp,act;[m
+[31m-		exp = "gmail";[m
+[32m+[m		[32mexp = "gm+ail";[m[41m[m
+ 		[m
+ 		act = driver.getTitle();[m
+ 		[m
+[1mdiff --git a/SeleniumPractice/src/xpath/FindingDataInTable.java b/SeleniumPractice/src/xpath/FindingDataInTable.java[m
+[1mindex aaab24a..f578be7 100644[m
+[1m--- a/SeleniumPractice/src/xpath/FindingDataInTable.java[m
+[1m+++ b/SeleniumPractice/src/xpath/FindingDataInTable.java[m
+[36m@@ -37,20 +37,20 @@[m [mpublic class FindingDataInTable {[m
+ 			[m
+ 			cols = rows.get(i).findElements(By.tagName("td"));[m
+ 			[m
+[31m-			String actvalue = cols.get(0).getText();[m
+[31m-			[m
+[31m-			//System.out.println(actvalue);[m
+[31m-			[m
+[31m-	[m
+[31m-			[m
+[31m-			if (actvalue.equalsIgnoreCase(expvalue)) {[m
+[32m+[m			[32mfor (int j = 1; j < cols.size(); j++) {[m[41m[m
+ 				[m
+[31m-				sree = true;[m
+[32m+[m				[32mString actvalue = cols.get(0).getText();[m[41m[m
+ 				[m
+[31m-				break;[m
+[32m+[m				[32m//System.out.println(actvalue);[m[41m[m
+ 				[m
+[32m+[m				[32mif (actvalue.equalsIgnoreCase(expvalue)) {[m[41m[m
+[32m+[m[41m					[m
+[32m+[m					[32msree = true;[m[41m[m
+[32m+[m[41m					[m
+[32m+[m					[32mbreak;[m[41m[m
+[32m+[m[41m					[m
+[32m+[m				[32m}[m[41m	[m
+ 			}[m
+[31m-			[m
+ 		}[m
+ 		[m
+ 		if (sree) {[m
+[36m@@ -59,7 +59,6 @@[m [mpublic class FindingDataInTable {[m
+ 			[m
+ 		} else {[m
+ 			[m
+[31m-[m
+ 			System.out.println(expvalue + " not Available in the table");[m
+ [m
+ 		}[m
+[1mdiff --git a/SeleniumPractice/src/xpath/HeightWeight.java b/SeleniumPractice/src/xpath/HeightWeight.java[m
+[1mindex a511c2a..446a2d5 100644[m
+[1m--- a/SeleniumPractice/src/xpath/HeightWeight.java[m
+[1m+++ b/SeleniumPractice/src/xpath/HeightWeight.java[m
+[36m@@ -22,7 +22,7 @@[m [mpublic class HeightWeight {[m
+ 		[m
+ 		driver.get("http://facebook.com");[m
+ 		[m
+[31m-		box = driver.findElement(By.id("u_0_o"));[m
+[32m+[m		[32mbox = driver.findElement(By.id("email"));[m[41m[m
+ 		[m
+ 		height = box.getSize().getHeight();[m
+ 		[m
+[1mdiff --git a/SeleniumPractice/src/xpath/PracticeAll.java b/SeleniumPractice/src/xpath/PracticeAll.java[m
+[1mindex 4b1ae84..7cc8d12 100644[m
+[1m--- a/SeleniumPractice/src/xpath/PracticeAll.java[m
+[1m+++ b/SeleniumPractice/src/xpath/PracticeAll.java[m
+[36m@@ -30,9 +30,7 @@[m [mpublic class PracticeAll {[m
+ 		[m
+ 		System.out.println("Title of the Page : " + title);[m
+ 		[m
+[31m-		String exp;[m
+[31m-		[m
+[31m-		exp = "ram";[m
+[32m+[m		[32mString exp = "ram";[m[41m[m
+ 		[m
+ 		if (title.toLowerCase().contains(exp.toLowerCase())) {[m
+ 			[m
+[1mdiff --git a/SeleniumPractice/src/xpath/PrimusDropd.java b/SeleniumPractice/src/xpath/PrimusDropd.java[m
+[1mindex 5590aa6..0fdcb8b 100644[m
+[1m--- a/SeleniumPractice/src/xpath/PrimusDropd.java[m
+[1m+++ b/SeleniumPractice/src/xpath/PrimusDropd.java[m
+[36m@@ -4,57 +4,86 @@[m [mpackage xpath;[m
+ import java.util.List;[m
+ [m
+ import org.openqa.selenium.By;[m
+[32m+[m[32mimport org.openqa.selenium.UnexpectedAlertBehaviour;[m[41m[m
+ import org.openqa.selenium.WebDriver;[m
+ import org.openqa.selenium.WebElement;[m
+ import org.openqa.selenium.chrome.ChromeDriver;[m
+[32m+[m[32mimport org.openqa.selenium.chrome.ChromeOptions;[m[41m[m
+[32m+[m[32mimport org.openqa.selenium.remote.CapabilityType;[m[41m[m
+[32m+[m[32mimport org.openqa.selenium.remote.DesiredCapabilities;[m[41m[m
+ import org.openqa.selenium.support.ui.Select;[m
+ [m
+ public class PrimusDropd {[m
+ [m
+ 	public static void main(String[] args) {[m
+ 		[m
+[31m-		System.setProperty("webdriver.chrome.driver", "e://chromedriver.exe");[m
+[32m+[m		[32mSystem.setProperty("webdriver.chrome.driver", "d://latestdrivers//chromedriver.exe");[m[41m[m
+ 		[m
+[31m-		WebDriver driver = new ChromeDriver();[m
+[32m+[m		[32mDesiredCapabilities dc = new DesiredCapabilities();[m[41m[m
+ 		[m
+[31m-		driver.get("http://primusbank.qedgetech.com");[m
+[32m+[m		[32mdc.setCapability("CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR", UnexpectedAlertBehaviour.DISMISS);[m[41m[m
+ 		[m
+[31m-		Select clist = new Select(driver.findElement(By.id("drlist")));[m
+[32m+[m		[32mChromeOptions opt  = new ChromeOptions();[m[41m[m
+ 		[m
+[31m-		List<WebElement> cnumlist = clist.getOptions();[m
+[32m+[m		[32mopt.addArguments("incognito");[m[41m[m
+ 		[m
+[31m-		int cnumberlist = clist.getOptions().size();[m
+[32m+[m		[32mopt.addArguments("start-maximized");[m[41m[m
+ 		[m
+[31m-		System.out.println(cnumberlist);[m
+[32m+[m		[32mWebDriver driver = new ChromeDriver(opt);[m[41m[m
+ 		[m
+[31m-		String exp = "ram";[m
+[32m+[m		[32mdriver.get("http://primusbank.qedgetech.com");[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32mtry {[m[41m[m
+[32m+[m[41m			[m
+[32m+[m		[32mdriver.findElement(By.id("txtuId")).sendKeys("admin");[m[41m[m
+ 		[m
+[31m-		boolean brlist= false;[m
+[32m+[m		[32mdriver.findElement(By.id("txtPword")).sendKeys("Admin");[m[41m[m
+ 		[m
+[31m-		for (int i = 0; i < cnumberlist; i++) {[m
+[31m-			[m
+[31m-				String actval = cnumlist.get(i).getText();[m
+[31m-				[m
+[31m-				if (actval.equalsIgnoreCase(exp)) [m
+[31m-				{[m
+[31m-					brlist= true;[m
+[31m-					[m
+[31m-					break;[m
+[31m-					[m
+[31m-				}[m
+[31m-			[m
+[31m-		}[m
+[32m+[m		[32mdriver.findElement(By.id("login")).click();[m[41m[m
+[32m+[m[41m		[m
+[32m+[m		[32m//driver.switchTo().alert().dismiss();[m[41m[m
+ 		[m
+[31m-		if (brlist) {[m
+[32m+[m		[32m} catch (Exception e) {[m[41m[m
+ 			[m
+[31m-			System.out.println(exp + " is Available in the Dropdown List");[m
+[32m+[m			[32mdriver.switchTo().alert().dismiss();[m[41m[m
+ 			[m
+[31m-		} else {[m
+[31m-			System.out.println(exp + " is not Available in the Dropdown List");[m
+ 		}[m
+[31m-		[m
+[31m-		driver.quit();[m
+[31m-		[m
+[32m+[m[32m//		Select clist = new Select(driver.findElement(By.id("drlist")));[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		List<WebElement> cnumlist = clist.getOptions();[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		int cnumberlist = clist.getOptions().size();[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		System.out.println(cnumberlist);[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		String exp = "ram";[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		boolean brlist= false;[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		for (int i = 0; i < cnumberlist; i++) {[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//				String actval = cnumlist.get(i).getText();[m[41m[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//				if (actval.equalsIgnoreCase(exp))[m[41m [m
+[32m+[m[32m//				{[m[41m[m
+[32m+[m[32m//					brlist= true;[m[41m[m
+[32m+[m[32m//[m[41m					[m
+[32m+[m[32m//					break;[m[41m[m
+[32m+[m[32m//[m[41m					[m
+[32m+[m[32m//				}[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//		}[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		if (brlist) {[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			System.out.println(exp + " is Available in the Dropdown List");[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//		} else {[m[41m[m
+[32m+[m[32m//			System.out.println(exp + " is not Available in the Dropdown List");[m[41m[m
+[32m+[m[32m//		}[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		driver.quit();[m[41m[m
+[32m+[m[32m//[m[41m		[m
+ 		[m
+ 		[m
+ [m
+[1mdiff --git a/SeleniumPractice/src/xpath/PrimusPopUp.java b/SeleniumPractice/src/xpath/PrimusPopUp.java[m
+[1mindex 65e5e4b..daf2525 100644[m
+[1m--- a/SeleniumPractice/src/xpath/PrimusPopUp.java[m
+[1m+++ b/SeleniumPractice/src/xpath/PrimusPopUp.java[m
+[36m@@ -3,15 +3,24 @@[m [mpackage xpath;[m
+ import java.util.concurrent.TimeUnit;[m
+ [m
+ import org.openqa.selenium.By;[m
+[32m+[m[32mimport org.openqa.selenium.Keys;[m[41m[m
+[32m+[m[32mimport org.openqa.selenium.UnexpectedAlertBehaviour;[m[41m[m
+ import org.openqa.selenium.WebDriver;[m
+ import org.openqa.selenium.chrome.ChromeDriver;[m
+[32m+[m[32mimport org.openqa.selenium.interactions.Actions;[m[41m[m
+[32m+[m[32mimport org.openqa.selenium.remote.CapabilityType;[m[41m[m
+[32m+[m[32mimport org.openqa.selenium.remote.DesiredCapabilities;[m[41m[m
+ import org.yaml.snakeyaml.tokens.Token.ID;[m
+ [m
+ public class PrimusPopUp {[m
+ [m
+[31m-	public static void main(String[] args) {[m
+[32m+[m	[32mpublic static void main(String[] args) throws InterruptedException {[m[41m[m
+ 		[m
+[31m-		System.setProperty("webdriver.chrome.driver", "e://chromedriver.exe");[m
+[32m+[m		[32mDesiredCapabilities dc = DesiredCapabilities.chrome();[m[41m[m
+[32m+[m[41m		[m
+[32m+[m		[32mdc.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);[m[41m[m
+[32m+[m[41m		[m
+[32m+[m		[32mSystem.setProperty("webdriver.chrome.driver", "d://chromedriver.exe");[m[41m[m
+ 		[m
+ 		WebDriver driver = new ChromeDriver();[m
+ 		[m
+[36m@@ -19,22 +28,14 @@[m [mpublic class PrimusPopUp {[m
+ 		[m
+ 		driver.get("http://primusbank.qedgetech.com");[m
+ 		[m
+[31m-		driver.findElement(By.id("login")).click();[m
+[32m+[m		[32mdriver.findElement(By.id("txtuId")).sendKeys("Admin");;[m[41m[m
+ 		[m
+[31m-		String msg = driver.switchTo().alert().getText();[m
+[32m+[m		[32mdriver.findElement(By.id("txtuId")).sendKeys("Admin");;[m[41m[m
+ 		[m
+[31m-		System.out.println(msg);[m
+[32m+[m		[32mActions act = new Actions(driver);[m[41m[m
+ 		[m
+[31m-		if (msg.contains("Passw")) {[m
+[31m-			[m
+[31m-			driver.switchTo().alert().accept();[m
+[31m-			[m
+[31m-		}[m
+[32m+[m		[32mact.sendKeys(Keys.ENTER).build().perform();[m[41m[m
+ 		[m
+[31m-		else {[m
+[31m-			[m
+[31m-			driver.switchTo().alert().dismiss();[m
+[31m-		}[m
+ 	}[m
+ [m
+ }[m
+[1mdiff --git a/SeleniumPractice/src/xpath/Selectdeselect.java b/SeleniumPractice/src/xpath/Selectdeselect.java[m
+[1mindex 5e90694..578d50e 100644[m
+[1m--- a/SeleniumPractice/src/xpath/Selectdeselect.java[m
+[1m+++ b/SeleniumPractice/src/xpath/Selectdeselect.java[m
+[36m@@ -31,7 +31,8 @@[m [mpublic class Selectdeselect {[m
+ 			clist.deselectByVisibleText("BMW");[m
+ 			[m
+ 			Thread.sleep(500000);[m
+[31m-[m
+[32m+[m[41m			[m
+[32m+[m[41m			[m
+ 	}[m
+ [m
+ }[m
+[1mdiff --git a/SeleniumPractice/src/xpath/WindowsHandle.java b/SeleniumPractice/src/xpath/WindowsHandle.java[m
+[1mindex f9d6b95..4c468ef 100644[m
+[1m--- a/SeleniumPractice/src/xpath/WindowsHandle.java[m
+[1m+++ b/SeleniumPractice/src/xpath/WindowsHandle.java[m
+[36m@@ -1,11 +1,15 @@[m
+ package xpath;[m
+ [m
+[32m+[m[32mimport java.util.ArrayList;[m[41m[m
+[32m+[m[32mimport java.util.HashSet;[m[41m[m
+ import java.util.Iterator;[m
+[32m+[m[32mimport java.util.List;[m[41m[m
+ import java.util.Set;[m
+ import java.util.concurrent.TimeUnit;[m
+ [m
+ import org.openqa.selenium.By;[m
+ import org.openqa.selenium.WebDriver;[m
+[32m+[m[32mimport org.openqa.selenium.WebElement;[m[41m[m
+ import org.openqa.selenium.chrome.ChromeDriver;[m
+ import org.testng.annotations.Test;[m
+ [m
+[36m@@ -27,28 +31,65 @@[m [mpublic class WindowsHandle {[m
+ 		[m
+ 		driver.findElement(By.xpath("//a[contains(text(),'Help')]")).click();[m
+ [m
+[32m+[m		[32mdriver.switchTo().window(parent);[m[41m[m
+[32m+[m[41m		[m
+[32m+[m		[32mdriver.findElement(By.xpath("//a[contains(text(),'Terms')]")).click();[m[41m[m
+[32m+[m[41m		[m
+ 		Set<String> s1= driver.getWindowHandles();[m
+ 		[m
+[31m-		Iterator<String> i1 = s1.iterator();[m
+[32m+[m		[32m//s1= driver.getWindowHandles();[m[41m[m
+[32m+[m[41m[m
+[32m+[m		[32mSystem.out.println(s1.size());[m[41m[m
+[32m+[m[41m		[m
+[32m+[m		[32mint count =0;[m[41m[m
+ 		[m
+[31m-		while (i1.hasNext()) {[m
+[32m+[m		[32mfor (String s2: s1) {[m[41m[m
+ 			[m
+[31m-			String childwin = i1.next();[m
+[32m+[m			[32mdriver.switchTo().window(s2);[m[41m[m
+ 			[m
+[31m-			if (!parent.equals(childwin)) {[m
+[31m-				[m
+[31m-				driver.switchTo().window(childwin);[m
+[31m-				[m
+[31m-				driver.findElement(By.xpath("//div[@class='appbar-helpcenter-sections']//a[2]")).click();[m
+[31m-				[m
+[31m-				System.out.println(driver.switchTo().window(childwin).getTitle());[m
+[32m+[m			[32mif (count==2) {[m[41m[m
+ 				[m
+[32m+[m				[32mdriver.switchTo().window(s2);[m[41m[m
+ 				[m
+[32m+[m				[32mdriver.close();[m[41m[m
+ 				[m
+[32m+[m				[32mbreak;[m[41m[m
+ 			}[m
+ 			[m
+[32m+[m[41m			[m
+[32m+[m[41m			[m
+[32m+[m			[32mcount++;[m[41m[m
+[32m+[m[41m			[m
+ 		}[m
+ 		[m
+[32m+[m[41m		[m
+[32m+[m[41m		[m
+[32m+[m[41m		[m
+[32m+[m[41m		[m
+[32m+[m[32m//		Iterator<String> i1 = s1.iterator();[m[41m[m
+[32m+[m[32m//[m[41m		[m
+[32m+[m[32m//		while (i1.hasNext()) {[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			String childwin = i1.next();[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			if (!parent.equals(childwin)) {[m[41m[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//				driver.switchTo().window(childwin);[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//				//driver.close();[m[41m[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m////				driver.findElement(By.xpath("//div[@class='appbar-helpcenter-sections']//a[2]")).click();[m[41m[m
+[32m+[m[32m////[m[41m				[m
+[32m+[m[32m////				System.out.println(driver.switchTo().window(childwin).getTitle());[m[41m[m
+[32m+[m[32m////[m[41m				[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//			}[m[41m[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//		}[m[41m[m
+[32m+[m[41m		[m
+ 		//System.out.println(driver.switchTo().window(parent));[m
+ 		[m
+ //		driver.findElement(By.xpath("//div[contains(text(),'Companies')]")).click();[m
+[36m@@ -63,4 +104,13 @@[m [mpublic class WindowsHandle {[m
+ 	[m
+ 	}[m
+ 	[m
+[32m+[m	[32mpublic static void main(String[] args) {[m[41m[m
+[32m+[m[41m		[m
+[32m+[m[32mList li = new ArrayList();[m[41m[m
+[32m+[m[41m		[m
+[32m+[m		[32mli.add(1);[m[41m[m
+[32m+[m[41m		[m
+[32m+[m		[32mSystem.out.println(li);[m[41m[m
+[32m+[m	[32m}[m[41m[m
+[32m+[m[41m	[m
+ }[m
+[1mdiff --git a/test-output/Default suite/Default test.html b/test-output/Default suite/Default test.html[m
+[1mindex 7047ffd..fa2661c 100644[m
+[1m--- a/test-output/Default suite/Default test.html[m	
+[1m+++ b/test-output/Default suite/Default test.html[m	
+[36m@@ -55,11 +55,11 @@[m [mfunction toggleAllBoxes() {[m
+ <body>[m
+ <h2 align='center'>Default test</h2><table border='1' align="center">[m
+ <tr>[m
+[31m-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>[m
+[32m+[m[32m<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>[m
+ </tr><tr>[m
+[31m-<td>Started on:</td><td>Sat Jul 27 22:55:38 IST 2019</td>[m
+[32m+[m[32m<td>Started on:</td><td>Fri Dec 13 21:28:32 IST 2019</td>[m
+ </tr>[m
+[31m-<tr><td>Total time:</td><td>38 seconds (38011 ms)</td>[m
+[32m+[m[32m<tr><td>Total time:</td><td>0 seconds (205 ms)</td>[m
+ </tr><tr>[m
+ <td>Included groups:</td><td></td>[m
+ </tr><tr>[m
+[36m@@ -67,8 +67,8 @@[m [mfunction toggleAllBoxes() {[m
+ </tr>[m
+ </table><p/>[m
+ <small><i>(Hover the method name to see the test class name)</i></small><p/>[m
+[31m-<table width='100%' border='1' class='invocation-passed'>[m
+[31m-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>[m
+[32m+[m[32m<table width='100%' border='1' class='invocation-failed'>[m
+[32m+[m[32m<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>[m
+ <tr><td><b>Test method</b></td>[m
+ <td width="30%"><b>Exception</b></td>[m
+ <td width="10%"><b>Time (seconds)</b></td>[m
+[36m@@ -76,9 +76,68 @@[m [mfunction toggleAllBoxes() {[m
+ </tr>[m
+ <tr>[m
+ <td title='xpath.WindowsHandle.TestPopUp()'><b>TestPopUp</b><br>Test class: xpath.WindowsHandle</td>[m
+[31m-<td></td>[m
+[31m-<td>37</td>[m
+[31m-<td>xpath.WindowsHandle@51565ec2</td></tr>[m
+[32m+[m[32m<td><div><pre>java.lang.Error: Unresolved compilation problem:[m[41m [m
+[32m+[m	[32mType mismatch: cannot convert from Set&lt;String&gt; to List&lt;String&gt;[m
+[32m+[m
+[32m+[m	[32mat xpath.WindowsHandle.TestPopUp(WindowsHandle.java:36)[m
+[32m+[m	[32mat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m
+[32m+[m	[32mat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[m
+[32m+[m	[32mat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[m
+[32m+[m	[32mat java.lang.reflect.Method.invoke(Unknown Source)[m
+[32m+[m	[32mat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeMethod(Invoker.java:580)[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)[m
+[32m+[m	[32mat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)[m
+[32m+[m	[32mat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)[m
+[32m+[m	[32mat org.testng.TestRunner.privateRun(TestRunner.java:648)[m
+[32m+[m	[32mat org.testng.TestRunner.run(TestRunner.java:505)[m
+[32m+[m	[32mat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)[m
+[32m+[m	[32mat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)[m
+[32m+[m	[32mat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)[m
+[32m+[m	[32mat org.testng.SuiteRunner.run(SuiteRunner.java:364)[m
+[32m+[m	[32mat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)[m
+[32m+[m	[32mat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)[m
+[32m+[m	[32mat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)[m
+[32m+[m	[32mat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)[m
+[32m+[m	[32mat org.testng.TestNG.runSuites(TestNG.java:1049)[m
+[32m+[m	[32mat org.testng.TestNG.run(TestNG.java:1017)[m
+[32m+[m	[32mat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)[m
+[32m+[m	[32mat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)[m
+[32m+[m	[32mat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)[m
+[32m+[m[32m</pre></div><a href='#' onClick='toggleBox("stack-trace989938643", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>[m
+[32m+[m[32m<div class='stack-trace' id='stack-trace989938643'><pre>java.lang.Error: Unresolved compilation problem:[m[41m [m
+[32m+[m	[32mType mismatch: cannot convert from Set&lt;String&gt; to List&lt;String&gt;[m
+[32m+[m
+[32m+[m	[32mat xpath.WindowsHandle.TestPopUp(WindowsHandle.java:36)[m
+[32m+[m	[32mat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m
+[32m+[m	[32mat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[m
+[32m+[m	[32mat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[m
+[32m+[m	[32mat java.lang.reflect.Method.invoke(Unknown Source)[m
+[32m+[m	[32mat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeMethod(Invoker.java:580)[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)[m
+[32m+[m	[32mat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)[m
+[32m+[m	[32mat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)[m
+[32m+[m	[32mat org.testng.TestRunner.privateRun(TestRunner.java:648)[m
+[32m+[m	[32mat org.testng.TestRunner.run(TestRunner.java:505)[m
+[32m+[m	[32mat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)[m
+[32m+[m	[32mat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)[m
+[32m+[m	[32mat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)[m
+[32m+[m	[32mat org.testng.SuiteRunner.run(SuiteRunner.java:364)[m
+[32m+[m	[32mat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)[m
+[32m+[m	[32mat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)[m
+[32m+[m	[32mat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)[m
+[32m+[m	[32mat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)[m
+[32m+[m	[32mat org.testng.TestNG.runSuites(TestNG.java:1049)[m
+[32m+[m	[32mat org.testng.TestNG.run(TestNG.java:1017)[m
+[32m+[m	[32mat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)[m
+[32m+[m	[32mat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)[m
+[32m+[m	[32mat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)[m
+[32m+[m[32m</pre></div></td>[m
+[32m+[m[32m<td>0</td>[m
+[32m+[m[32m<td>xpath.WindowsHandle@7c16905e</td></tr>[m
+ </table><p>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/test-output/Default suite/Default test.xml b/test-output/Default suite/Default test.xml[m
+[1mindex a993071..4624a8c 100644[m
+[1m--- a/test-output/Default suite/Default test.xml[m	
+[1m+++ b/test-output/Default suite/Default test.xml[m	
+[36m@@ -1,5 +1,40 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+ <!-- Generated by org.testng.reporters.JUnitXMLReporter -->[m
+[31m-<testsuite hostname="ramsunkara" ignored="0" name="Default test" tests="1" failures="0" timestamp="27 Jul 2019 17:26:16 GMT" time="38.011" errors="0">[m
+[31m-  <testcase name="TestPopUp" time="37.947" classname="xpath.WindowsHandle"/>[m
+[32m+[m[32m<testsuite hostname="ramsunkara" ignored="0" name="Default test" tests="1" failures="1" timestamp="13 Dec 2019 15:58:32 GMT" time="0.205" errors="0">[m[41m[m
+[32m+[m[32m  <testcase name="TestPopUp" time="0.015" classname="xpath.WindowsHandle">[m[41m[m
+[32m+[m[32m    <failure type="java.lang.Error" message="Unresolved compilation problem:[m[41m [m
+[32m+[m	[32mType mismatch: cannot convert from Set&amp;lt;String&amp;gt; to List&amp;lt;String&amp;gt;[m
+[32m+[m[32m">[m[41m[m
+[32m+[m[32m      <![CDATA[java.lang.Error: Unresolved compilation problem:[m[41m [m
+[32m+[m[32mType mismatch: cannot convert from Set<String> to List<String>[m
+[32m+[m[41m[m
+[32m+[m[32mat xpath.WindowsHandle.TestPopUp(WindowsHandle.java:36)[m[41m[m
+[32m+[m[32mat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m[41m[m
+[32m+[m[32mat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[m[41m[m
+[32m+[m[32mat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[m[41m[m
+[32m+[m[32mat java.lang.reflect.Method.invoke(Unknown Source)[m[41m[m
+[32m+[m[32mat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)[m[41m[m
+[32m+[m[32mat org.testng.internal.Invoker.invokeMethod(Invoker.java:580)[m[41m[m
+[32m+[m[32mat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)[m[41m[m
+[32m+[m[32mat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)[m[41m[m
+[32m+[m[32mat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)[m[41m[m
+[32m+[m[32mat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)[m[41m[m
+[32m+[m[32mat org.testng.TestRunner.privateRun(TestRunner.java:648)[m[41m[m
+[32m+[m[32mat org.testng.TestRunner.run(TestRunner.java:505)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.run(SuiteRunner.java:364)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.runSuites(TestNG.java:1049)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.run(TestNG.java:1017)[m[41m[m
+[32m+[m[32mat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)[m[41m[m
+[32m+[m[32mat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)[m[41m[m
+[32m+[m[32mat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)[m[41m[m
+[32m+[m[32m]]>[m[41m[m
+[32m+[m[32m    </failure>[m[41m[m
+[32m+[m[32m  </testcase> <!-- TestPopUp -->[m[41m[m
+ </testsuite> <!-- Default test -->[m
+[1mdiff --git a/test-output/emailable-report.html b/test-output/emailable-report.html[m
+[1mindex edf99d8..618dd83 100644[m
+[1m--- a/test-output/emailable-report.html[m
+[1m+++ b/test-output/emailable-report.html[m
+[36m@@ -9,10 +9,39 @@[m
+ <table>[m
+ <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>[m
+ <tr><th colspan="7">Default suite</th></tr>[m
+[31m-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">38,011</td><td></td><td></td></tr>[m
+[32m+[m[32m<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">205</td><td></td><td></td></tr>[m[41m[m
+ </table>[m
+[31m-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">xpath.WindowsHandle</td><td><a href="#m0">TestPopUp</a></td><td rowspan="1">1564248338242</td><td rowspan="1">37947</td></tr></tbody>[m
+[32m+[m[32m<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">xpath.WindowsHandle</td><td><a href="#m0">TestPopUp</a></td><td rowspan="1">1576252712198</td><td rowspan="1">15</td></tr></tbody>[m[41m[m
+ </table>[m
+[31m-<h2>Default test</h2><h3 id="m0">xpath.WindowsHandle#TestPopUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>[m
+[32m+[m[32m<h2>Default test</h2><h3 id="m0">xpath.WindowsHandle#TestPopUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error: Unresolved compilation problem:[m[41m [m
+[32m+[m	[32mType mismatch: cannot convert from Set&lt;String&gt; to List&lt;String&gt;[m
+[32m+[m[41m[m
+[32m+[m	[32mat xpath.WindowsHandle.TestPopUp(WindowsHandle.java:36)[m[41m[m
+[32m+[m	[32mat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m[41m[m
+[32m+[m	[32mat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[m[41m[m
+[32m+[m	[32mat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[m[41m[m
+[32m+[m	[32mat java.lang.reflect.Method.invoke(Unknown Source)[m[41m[m
+[32m+[m	[32mat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)[m[41m[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeMethod(Invoker.java:580)[m[41m[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)[m[41m[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)[m[41m[m
+[32m+[m	[32mat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)[m[41m[m
+[32m+[m	[32mat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)[m[41m[m
+[32m+[m	[32mat org.testng.TestRunner.privateRun(TestRunner.java:648)[m[41m[m
+[32m+[m	[32mat org.testng.TestRunner.run(TestRunner.java:505)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunner.run(SuiteRunner.java:364)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)[m[41m[m
+[32m+[m	[32mat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)[m[41m[m
+[32m+[m	[32mat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)[m[41m[m
+[32m+[m	[32mat org.testng.TestNG.runSuites(TestNG.java:1049)[m[41m[m
+[32m+[m	[32mat org.testng.TestNG.run(TestNG.java:1017)[m[41m[m
+[32m+[m	[32mat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)[m[41m[m
+[32m+[m	[32mat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)[m[41m[m
+[32m+[m	[32mat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)[m[41m[m
+[32m+[m[32m</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>[m[41m[m
+ </body>[m
+ </html>[m
+[1mdiff --git a/test-output/index.html b/test-output/index.html[m
+[1mindex 349b01c..2258703 100644[m
+[1m--- a/test-output/index.html[m
+[1m+++ b/test-output/index.html[m
+[36m@@ -24,7 +24,7 @@[m
+     <div class="top-banner-root">[m
+       <span class="top-banner-title-font">Test results</span>[m
+       <br/>[m
+[31m-      <span class="top-banner-font-1">1 suite</span>[m
+[32m+[m[32m      <span class="top-banner-font-1">1 suite, 1 failed test</span>[m[41m[m
+     </div> <!-- top-banner-root -->[m
+     <div class="navigator-root">[m
+       <div class="navigator-suite-header">[m
+[36m@@ -38,7 +38,7 @@[m
+         <div class="rounded-window">[m
+           <div class="suite-header light-rounded-window-top">[m
+             <a href="#" class="navigator-link" panel-name="suite-Default_suite">[m
+[31m-              <span class="suite-name border-passed">Default suite</span>[m
+[32m+[m[32m              <span class="suite-name border-failed">Default suite</span>[m[41m[m
+             </a> <!-- navigator-link -->[m
+           </div> <!-- suite-header light-rounded-window-top -->[m
+           <div class="navigator-suite-content">[m
+[36m@@ -49,7 +49,7 @@[m
+               <ul>[m
+                 <li>[m
+                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">[m
+[31m-                    <span>C:\Users\SunkaraRam\AppData\Local\Temp\testng-eclipse-2106476430\testng-customsuite.xml</span>[m
+[32m+[m[32m                    <span>C:\Users\SunkaraRam\AppData\Local\Temp\testng-eclipse--338087121\testng-customsuite.xml</span>[m[41m[m
+                   </a> <!-- navigator-link  -->[m
+                 </li>[m
+                 <li>[m
+[36m@@ -91,21 +91,21 @@[m
+               <div class="suite-section-content">[m
+                 <ul>[m
+                   <li>[m
+[31m-                    <span class="method-stats">1 method,   1 passed</span>[m
+[32m+[m[32m                    <span class="method-stats">1 method, 1 failed,   </span>[m[41m[m
+                   </li>[m
+                   <li>[m
+[31m-                    <span class="method-list-title passed">Passed methods</span>[m
+[31m-                    <span class="show-or-hide-methods passed">[m
+[31m-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->[m
+[31m-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->[m
+[32m+[m[32m                    <span class="method-list-title failed">Failed methods</span>[m[41m[m
+[32m+[m[32m                    <span class="show-or-hide-methods failed">[m[41m[m
+[32m+[m[32m                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->[m[41m[m
+[32m+[m[32m                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->[m[41m[m
+                     </span>[m
+[31m-                    <div class="method-list-content passed suite-Default_suite">[m
+[32m+[m[32m                    <div class="method-list-content failed suite-Default_suite">[m[41m[m
+                       <span>[m
+[31m-                        <img width="3%" src="passed.png"/>[m
+[32m+[m[32m                        <img width="3%" src="failed.png"/>[m[41m[m
+                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="xpath.WindowsHandle" hash-for-method="TestPopUp">TestPopUp</a> <!-- method navigator-link -->[m
+                       </span>[m
+                       <br/>[m
+[31m-                    </div> <!-- method-list-content passed suite-Default_suite -->[m
+[32m+[m[32m                    </div> <!-- method-list-content failed suite-Default_suite -->[m[41m[m
+                   </li>[m
+                 </ul>[m
+               </div> <!-- suite-section-content -->[m
+[36m@@ -117,9 +117,9 @@[m
+     <div class="wrapper">[m
+       <div class="main-panel-root">[m
+         <div panel-name="suite-Default_suite" class="panel Default_suite">[m
+[31m-          <div class="suite-Default_suite-class-passed">[m
+[32m+[m[32m          <div class="suite-Default_suite-class-failed">[m[41m[m
+             <div class="main-panel-header rounded-window-top">[m
+[31m-              <img src="passed.png"/>[m
+[32m+[m[32m              <img src="failed.png"/>[m[41m[m
+               <span class="class-name">xpath.WindowsHandle</span>[m
+             </div> <!-- main-panel-header rounded-window-top -->[m
+             <div class="main-panel-content rounded-window-bottom">[m
+[36m@@ -128,14 +128,45 @@[m
+                   <a name="TestPopUp">[m
+                   </a> <!-- TestPopUp -->[m
+                   <span class="method-name">TestPopUp</span>[m
+[32m+[m[32m                  <div class="stack-trace">java.lang.Error: Unresolved compilation problem:[m[41m [m
+[32m+[m	[32mType mismatch: cannot convert from Set&lt;String&gt; to List&lt;String&gt;[m
+[32m+[m[41m[m
+[32m+[m	[32mat xpath.WindowsHandle.TestPopUp(WindowsHandle.java:36)[m[41m[m
+[32m+[m	[32mat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m[41m[m
+[32m+[m	[32mat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[m[41m[m
+[32m+[m	[32mat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[m[41m[m
+[32m+[m	[32mat java.lang.reflect.Method.invoke(Unknown Source)[m[41m[m
+[32m+[m	[32mat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)[m[41m[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeMethod(Invoker.java:580)[m[41m[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)[m[41m[m
+[32m+[m	[32mat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)[m[41m[m
+[32m+[m	[32mat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)[m[41m[m
+[32m+[m	[32mat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)[m[41m[m
+[32m+[m	[32mat org.testng.TestRunner.privateRun(TestRunner.java:648)[m[41m[m
+[32m+[m	[32mat org.testng.TestRunner.run(TestRunner.java:505)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunner.run(SuiteRunner.java:364)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)[m[41m[m
+[32m+[m	[32mat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)[m[41m[m
+[32m+[m	[32mat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)[m[41m[m
+[32m+[m	[32mat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)[m[41m[m
+[32m+[m	[32mat org.testng.TestNG.runSuites(TestNG.java:1049)[m[41m[m
+[32m+[m	[32mat org.testng.TestNG.run(TestNG.java:1017)[m[41m[m
+[32m+[m	[32mat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)[m[41m[m
+[32m+[m	[32mat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)[m[41m[m
+[32m+[m	[32mat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)[m[41m[m
+[32m+[m
+[32m+[m[32m</div> <!-- stack-trace -->[m[41m[m
+                 </div> <!-- method-content -->[m
+               </div> <!-- method -->[m
+             </div> <!-- main-panel-content rounded-window-bottom -->[m
+[31m-          </div> <!-- suite-Default_suite-class-passed -->[m
+[32m+[m[32m          </div> <!-- suite-Default_suite-class-failed -->[m[41m[m
+         </div> <!-- panel Default_suite -->[m
+         <div panel-name="test-xml-Default_suite" class="panel">[m
+           <div class="main-panel-header rounded-window-top">[m
+[31m-            <span class="header-content">C:\Users\SunkaraRam\AppData\Local\Temp\testng-eclipse-2106476430\testng-customsuite.xml</span>[m
+[32m+[m[32m            <span class="header-content">C:\Users\SunkaraRam\AppData\Local\Temp\testng-eclipse--338087121\testng-customsuite.xml</span>[m[41m[m
+           </div> <!-- main-panel-header rounded-window-top -->[m
+           <div class="main-panel-content rounded-window-bottom">[m
+             <pre>[m
+[36m@@ -188,12 +219,12 @@[m [mdata.addRows(1);[m
+ data.setCell(0, 0, 0)[m
+ data.setCell(0, 1, 'TestPopUp')[m
+ data.setCell(0, 2, 'xpath.WindowsHandle')[m
+[31m-data.setCell(0, 3, 37947);[m
+[32m+[m[32mdata.setCell(0, 3, 15);[m
+ window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}[m
+ return data;[m
+ }[m
+               </script>[m
+[31m-              <span class="suite-total-time">Total running time: 37 seconds</span>[m
+[32m+[m[32m              <span class="suite-total-time">Total running time: 15 ms</span>[m[41m[m
+               <div id="times-div-Default_suite">[m
+               </div> <!-- times-div-Default_suite -->[m
+             </div> <!-- times-div -->[m
+[36m@@ -221,6 +252,8 @@[m [mreturn data;[m
+             <div class="chronological-class">[m
+               <div class="chronological-class-name">xpath.WindowsHandle</div> <!-- chronological-class-name -->[m
+               <div class="test-method">[m
+[32m+[m[32m                <img src="failed.png">[m[41m[m
+[32m+[m[32m                </img>[m[41m[m
+                 <span class="method-name">TestPopUp</span>[m
+                 <span class="method-start">0 ms</span>[m
+               </div> <!-- test-method -->[m
+[1mdiff --git a/test-output/junitreports/TEST-xpath.WindowsHandle.xml b/test-output/junitreports/TEST-xpath.WindowsHandle.xml[m
+[1mindex 7e8786c..f40570b 100644[m
+[1m--- a/test-output/junitreports/TEST-xpath.WindowsHandle.xml[m
+[1m+++ b/test-output/junitreports/TEST-xpath.WindowsHandle.xml[m
+[36m@@ -1,5 +1,40 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+ <!-- Generated by org.testng.reporters.JUnitReportReporter -->[m
+[31m-<testsuite skipped="0" hostname="ramsunkara" name="xpath.WindowsHandle" tests="1" failures="0" timestamp="27 Jul 2019 17:26:16 GMT" time="37.947" errors="0">[m
+[31m-  <testcase name="TestPopUp" time="37.947" classname="xpath.WindowsHandle"/>[m
+[32m+[m[32m<testsuite skipped="0" hostname="ramsunkara" name="xpath.WindowsHandle" tests="1" failures="0" timestamp="13 Dec 2019 15:58:32 GMT" time="0.015" errors="1">[m[41m[m
+[32m+[m[32m  <testcase name="TestPopUp" time="0.015" classname="xpath.WindowsHandle">[m[41m[m
+[32m+[m[32m    <error type="java.lang.Error" message="Unresolved compilation problem:[m[41m [m
+[32m+[m	[32mType mismatch: cannot convert from Set&lt;String&gt; to List&lt;String&gt;[m
+[32m+[m[32m">[m[41m[m
+[32m+[m[32m      <![CDATA[java.lang.Error: Unresolved compilation problem:[m[41m [m
+[32m+[m[32mType mismatch: cannot convert from Set<String> to List<String>[m
+[32m+[m[41m[m
+[32m+[m[32mat xpath.WindowsHandle.TestPopUp(WindowsHandle.java:36)[m[41m[m
+[32m+[m[32mat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m[41m[m
+[32m+[m[32mat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[m[41m[m
+[32m+[m[32mat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[m[41m[m
+[32m+[m[32mat java.lang.reflect.Method.invoke(Unknown Source)[m[41m[m
+[32m+[m[32mat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)[m[41m[m
+[32m+[m[32mat org.testng.internal.Invoker.invokeMethod(Invoker.java:580)[m[41m[m
+[32m+[m[32mat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)[m[41m[m
+[32m+[m[32mat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)[m[41m[m
+[32m+[m[32mat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)[m[41m[m
+[32m+[m[32mat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)[m[41m[m
+[32m+[m[32mat org.testng.TestRunner.privateRun(TestRunner.java:648)[m[41m[m
+[32m+[m[32mat org.testng.TestRunner.run(TestRunner.java:505)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.run(SuiteRunner.java:364)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.runSuites(TestNG.java:1049)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.run(TestNG.java:1017)[m[41m[m
+[32m+[m[32mat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)[m[41m[m
+[32m+[m[32mat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)[m[41m[m
+[32m+[m[32mat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)[m[41m[m
+[32m+[m[32m]]>[m[41m[m
+[32m+[m[32m    </error>[m[41m[m
+[32m+[m[32m  </testcase> <!-- TestPopUp -->[m[41m[m
+ </testsuite> <!-- xpath.WindowsHandle -->[m
+[1mdiff --git a/test-output/old/Default suite/methods-alphabetical.html b/test-output/old/Default suite/methods-alphabetical.html[m
+[1mindex bc8a889..61b1b1c 100644[m
+[1m--- a/test-output/old/Default suite/methods-alphabetical.html[m	
+[1m+++ b/test-output/old/Default suite/methods-alphabetical.html[m	
+[36m@@ -1,6 +1,6 @@[m
+ <h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Default suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>[m
+ <table border="1">[m
+ <tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>[m
+[31m-<tr bgcolor="fb9068">  <td>19/07/27 22:55:38</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="WindowsHandle.TestPopUp()[pri:0, instance:xpath.WindowsHandle@51565ec2]">TestPopUp</td> [m
+[31m-  <td>main@1121647253</td>   <td></td> </tr>[m
+[32m+[m[32m<tr bgcolor="fb9068">  <td>19/12/13 21:28:32</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="WindowsHandle.TestPopUp()[pri:0, instance:xpath.WindowsHandle@7c16905e]">TestPopUp</td>[m[41m [m
+[32m+[m[32m  <td>main@1007603019</td>   <td></td> </tr>[m
+ </table>[m
+[1mdiff --git a/test-output/old/Default suite/methods.html b/test-output/old/Default suite/methods.html[m
+[1mindex bc8a889..61b1b1c 100644[m
+[1m--- a/test-output/old/Default suite/methods.html[m	
+[1m+++ b/test-output/old/Default suite/methods.html[m	
+[36m@@ -1,6 +1,6 @@[m
+ <h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Default suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>[m
+ <table border="1">[m
+ <tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>[m
+[31m-<tr bgcolor="fb9068">  <td>19/07/27 22:55:38</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="WindowsHandle.TestPopUp()[pri:0, instance:xpath.WindowsHandle@51565ec2]">TestPopUp</td> [m
+[31m-  <td>main@1121647253</td>   <td></td> </tr>[m
+[32m+[m[32m<tr bgcolor="fb9068">  <td>19/12/13 21:28:32</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="WindowsHandle.TestPopUp()[pri:0, instance:xpath.WindowsHandle@7c16905e]">TestPopUp</td>[m[41m [m
+[32m+[m[32m  <td>main@1007603019</td>   <td></td> </tr>[m
+ </table>[m
+[1mdiff --git a/test-output/old/Default suite/toc.html b/test-output/old/Default suite/toc.html[m
+[1mindex e58eee3..fcf2e8b 100644[m
+[1m--- a/test-output/old/Default suite/toc.html[m	
+[1m+++ b/test-output/old/Default suite/toc.html[m	
+[36m@@ -20,9 +20,9 @@[m
+ <td><a target='mainFrame' href='reporter-output.html'>reporter output</a></td>[m
+ <td><a target='mainFrame' href='testng.xml.html'>testng.xml</a></td>[m
+ </tr></table>[m
+[31m-<table width='100%' class='test-passed'>[m
+[32m+[m[32m<table width='100%' class='test-failed'>[m
+ <tr><td>[m
+[31m-<table style='width: 100%'><tr><td valign='top'>Default test (1/0/0)</td><td valign='top' align='right'>[m
+[32m+[m[32m<table style='width: 100%'><tr><td valign='top'>Default test (0/1/0)</td><td valign='top' align='right'>[m
+   <a href='Default test.html' target='mainFrame'>Results</a>[m
+ </td></tr></table>[m
+ </td></tr><p/>[m
+[1mdiff --git a/test-output/old/index.html b/test-output/old/index.html[m
+[1mindex e8f52f8..ba5fb5e 100644[m
+[1m--- a/test-output/old/index.html[m
+[1m+++ b/test-output/old/index.html[m
+[36m@@ -4,6 +4,6 @@[m
+ </head><body>[m
+ <h2><p align='center'>Test results</p></h2>[m
+ <table border='1' width='100%' class='main-page'><tr><th>Suite</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>testng.xml</th></tr>[m
+[31m-<tr align='center' class='invocation-passed'><td><em>Total</em></td><td><em>1</em></td><td><em>0</em></td><td><em>0</em></td><td>&nbsp;</td></tr>[m
+[31m-<tr align='center' class='invocation-passed'><td><a href='Default suite/index.html'>Default suite</a></td>[m
+[31m-<td>1</td><td>0</td><td>0</td><td><a href='Default suite/testng.xml.html'>Link</a></td></tr></table></body></html>[m
+[32m+[m[32m<tr align='center' class='invocation-failed'><td><em>Total</em></td><td><em>0</em></td><td><em>1</em></td><td><em>0</em></td><td>&nbsp;</td></tr>[m
+[32m+[m[32m<tr align='center' class='invocation-failed'><td><a href='Default suite/index.html'>Default suite</a></td>[m
+[32m+[m[32m<td>0</td><td>1</td><td>0</td><td><a href='Default suite/testng.xml.html'>Link</a></td></tr></table></body></html>[m
+[1mdiff --git a/test-output/testng-results.xml b/test-output/testng-results.xml[m
+[1mindex ff02cf6..d20887f 100644[m
+[1m--- a/test-output/testng-results.xml[m
+[1m+++ b/test-output/testng-results.xml[m
+[36m@@ -1,13 +1,52 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">[m
+[32m+[m[32m<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">[m[41m[m
+   <reporter-output>[m
+   </reporter-output>[m
+[31m-  <suite name="Default suite" duration-ms="38011" started-at="2019-07-27T17:25:38Z" finished-at="2019-07-27T17:26:16Z">[m
+[32m+[m[32m  <suite name="Default suite" duration-ms="205" started-at="2019-12-13T15:58:32Z" finished-at="2019-12-13T15:58:32Z">[m[41m[m
+     <groups>[m
+     </groups>[m
+[31m-    <test name="Default test" duration-ms="38011" started-at="2019-07-27T17:25:38Z" finished-at="2019-07-27T17:26:16Z">[m
+[32m+[m[32m    <test name="Default test" duration-ms="205" started-at="2019-12-13T15:58:32Z" finished-at="2019-12-13T15:58:32Z">[m[41m[m
+       <class name="xpath.WindowsHandle">[m
+[31m-        <test-method status="PASS" signature="TestPopUp()[pri:0, instance:xpath.WindowsHandle@51565ec2]" name="TestPopUp" duration-ms="37947" started-at="2019-07-27T17:25:38Z" finished-at="2019-07-27T17:26:16Z">[m
+[32m+[m[32m        <test-method status="FAIL" signature="TestPopUp()[pri:0, instance:xpath.WindowsHandle@7c16905e]" name="TestPopUp" duration-ms="15" started-at="2019-12-13T15:58:32Z" finished-at="2019-12-13T15:58:32Z">[m[41m[m
+[32m+[m[32m          <exception class="java.lang.Error">[m[41m[m
+[32m+[m[32m            <message>[m[41m[m
+[32m+[m[32m              <![CDATA[Unresolved compilation problem:[m[41m [m
+[32m+[m[32mType mismatch: cannot convert from Set<String> to List<String>[m
+[32m+[m[32m]]>[m[41m[m
+[32m+[m[32m            </message>[m[41m[m
+[32m+[m[32m            <full-stacktrace>[m[41m[m
+[32m+[m[32m              <![CDATA[java.lang.Error: Unresolved compilation problem:[m[41m [m
+[32m+[m[32mType mismatch: cannot convert from Set<String> to List<String>[m
+[32m+[m[41m[m
+[32m+[m[32mat xpath.WindowsHandle.TestPopUp(WindowsHandle.java:36)[m[41m[m
+[32m+[m[32mat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m[41m[m
+[32m+[m[32mat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[m[41m[m
+[32m+[m[32mat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[m[41m[m
+[32m+[m[32mat java.lang.reflect.Method.invoke(Unknown Source)[m[41m[m
+[32m+[m[32mat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)[m[41m[m
+[32m+[m[32mat org.testng.internal.Invoker.invokeMethod(Invoker.java:580)[m[41m[m
+[32m+[m[32mat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)[m[41m[m
+[32m+[m[32mat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)[m[41m[m
+[32m+[m[32mat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)[m[41m[m
+[32m+[m[32mat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)[m[41m[m
+[32m+[m[32mat org.testng.TestRunner.privateRun(TestRunner.java:648)[m[41m[m
+[32m+[m[32mat org.testng.TestRunner.run(TestRunner.java:505)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunner.run(SuiteRunner.java:364)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)[m[41m[m
+[32m+[m[32mat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.runSuites(TestNG.java:1049)[m[41m[m
+[32m+[m[32mat org.testng.TestNG.run(TestNG.java:1017)[m[41m[m
+[32m+[m[32mat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)[m[41m[m
+[32m+[m[32mat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)[m[41m[m
+[32m+[m[32mat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)[m[41m[m
+[32m+[m[32m]]>[m[41m[m
+[32m+[m[32m            </full-stacktrace>[m[41m[m
+[32m+[m[32m          </exception> <!-- java.lang.Error -->[m[41m[m
+           <reporter-output>[m
+           </reporter-output>[m
+         </test-method> <!-- TestPopUp -->[m

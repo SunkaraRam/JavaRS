@@ -31,7 +31,8 @@ public class Selectdeselect {
 			clist.deselectByVisibleText("BMW");
 			
 			Thread.sleep(500000);
-
+			
+			
 	}
 
 }

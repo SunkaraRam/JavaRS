@@ -29,7 +29,7 @@ public class ClearTripdatPicker1 {
 		
 		logger=report.createTest("Verify Data Picker");
 		
-		String dob = "1/March/2020";
+		String dob = "1/March/2021";
 		
 		String date,month,year;
 		
@@ -41,7 +41,7 @@ public class ClearTripdatPicker1 {
 		
 		year = temp[2];
 		
-		System.setProperty("webdriver.chrome.driver", "d://chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\LatestDrivers\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
@@ -74,7 +74,7 @@ public class ClearTripdatPicker1 {
 		
 		calmonth = driver.findElement(By.className("ui-datepicker-month")).getText();
 		
-		while (!calmonth.equalsIgnoreCase(month)) 
+		while (!calmonth.equalsIgnoreCase(month))
 			{
 			
 			 driver.findElement(By.className("nextMonth")).click();
@@ -130,7 +130,7 @@ public class ClearTripdatPicker1 {
 
 	report.flush();
 	
-	driver.close();
+//	driver.close();
 }
 	
 	

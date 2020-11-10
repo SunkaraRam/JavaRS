@@ -17,7 +17,7 @@ public class FindGmailtext {
 		driver.findElement(By.linkText("Gmail")).click();
 		
 		String exp,act;
-		exp = "gmail";
+		exp = "gm+ail";
 		
 		act = driver.getTitle();
 		

@@ -1,11 +1,15 @@
 package xpath;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -27,27 +31,64 @@ public class WindowsHandle {
 		
 		driver.findElement(By.xpath("//a[contains(text(),'Help')]")).click();
 
+		driver.switchTo().window(parent);
+		
+		driver.findElement(By.xpath("//a[contains(text(),'Terms')]")).click();
+		
 		Set<String> s1= driver.getWindowHandles();
 		
-		Iterator<String> i1 = s1.iterator();
+		//s1= driver.getWindowHandles();
+
+		System.out.println(s1.size());
 		
-		while (i1.hasNext()) {
+		int count =0;
+		
+		for (String s2: s1) {
 			
-			String childwin = i1.next();
+			driver.switchTo().window(s2);
 			
-			if (!parent.equals(childwin)) {
+			if (count==2) {
 				
-				driver.switchTo().window(childwin);
+				driver.switchTo().window(s2);
 				
-				driver.findElement(By.xpath("//div[@class='appbar-helpcenter-sections']//a[2]")).click();
+				driver.close();
 				
-				System.out.println(driver.switchTo().window(childwin).getTitle());
-				
-				
-				
+				break;
 			}
 			
+			
+			
+			count++;
+			
 		}
+		
+		
+		
+		
+		
+//		Iterator<String> i1 = s1.iterator();
+//		
+//		while (i1.hasNext()) {
+//			
+//			String childwin = i1.next();
+//			
+//			if (!parent.equals(childwin)) {
+//				
+//				driver.switchTo().window(childwin);
+//			
+//				//driver.close();
+//				
+////				driver.findElement(By.xpath("//div[@class='appbar-helpcenter-sections']//a[2]")).click();
+////				
+////				System.out.println(driver.switchTo().window(childwin).getTitle());
+////				
+//				
+//				
+//			}
+//			
+//			
+//			
+//		}
 		
 		//System.out.println(driver.switchTo().window(parent));
 		
@@ -61,6 +102,15 @@ public class WindowsHandle {
 //			
 //		}
 	
+	}
+	
+	public static void main(String[] args) {
+		
+List li = new ArrayList();
+		
+		li.add(1);
+		
+		System.out.println(li);
 	}
 	
 }

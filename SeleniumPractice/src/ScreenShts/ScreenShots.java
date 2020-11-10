@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
 //import org.apache.commons.io.FileUtils;
 
+import com.google.common.io.Files;
+
 
 public class ScreenShots {
 
@@ -29,8 +31,7 @@ public class ScreenShots {
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
 		FileHandler.copy(src,new File("d://screenshot.jpg"));
-		
-		
+	
 	}
 
 }

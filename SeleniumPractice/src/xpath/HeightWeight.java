@@ -22,7 +22,7 @@ public class HeightWeight {
 		
 		driver.get("http://facebook.com");
 		
-		box = driver.findElement(By.id("u_0_o"));
+		box = driver.findElement(By.id("email"));
 		
 		height = box.getSize().getHeight();
 		

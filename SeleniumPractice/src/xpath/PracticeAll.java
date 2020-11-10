@@ -30,9 +30,7 @@ public class PracticeAll {
 		
 		System.out.println("Title of the Page : " + title);
 		
-		String exp;
-		
-		exp = "ram";
+		String exp = "ram";
 		
 		if (title.toLowerCase().contains(exp.toLowerCase())) {
 			
